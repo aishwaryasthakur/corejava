@@ -12,6 +12,13 @@ public class Application {
 		bd.setAge(23);
 		//Getter method application
 		System.out.println(bd.getName() + " " + bd.getAge() + " " + bd.getBloodGroup());
+		
+		int k=0, m=-1;
+		
+		if(k!=0 && m!=0)
+			System.out.println("A");
+		else
+			System.out.println("B");
 	}
 
 }
